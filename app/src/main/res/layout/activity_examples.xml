@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ExamplesActivity">
+
+    <Button
+        android:text="Create A Document"
+        android:textAllCaps="true"
+        android:layout_marginTop="20dp"
+        android:onClick="createaDocument"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Read A Document"
+        android:textAllCaps="true"
+        android:layout_marginTop="20dp"
+        android:onClick="readDocument"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Update A Document"
+        android:textAllCaps="true"
+        android:layout_marginTop="20dp"
+        android:onClick="updateDocument"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="delete A Document"
+        android:textAllCaps="true"
+        android:layout_marginTop="20dp"
+        android:onClick="deleteDocument"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="get a list of  All Document"
+        android:textAllCaps="true"
+        android:layout_marginTop="20dp"
+        android:onClick="getAllDocuments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="get a list off all doc with realtime update"
+        android:textAllCaps="true"
+        android:layout_marginTop="20dp"
+        android:onClick="getAllDocumentsWithRealtimeUpdates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
